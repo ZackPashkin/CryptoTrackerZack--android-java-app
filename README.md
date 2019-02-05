@@ -1,26 +1,11 @@
 # cryptoTrackerZack
 
-[![platform](https://img.shields.io/badge/platform-Android-brightgreen.svg)](https://www.android.com)
-[![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/Patchett/cryptoTrackerZack /raw/master/LICENSE)
-[![GitHub (pre-)release](https://img.shields.io/github/release/Patchett/cryptoTrackerZack /all.svg)](https://github.com/Patchett/cryptoTrackerZack /releases/tag/5.3.3)
 
 
-cryptoTrackerZack  is an Android app that tracks and displays prices, news, charts, markets, and fundamentals of over 1500 crypto currencies! The app is completely open source with NO ADS EVER! It was a labor of love. I have spent months working on it every night after I get home from work and on weekends.
+cryptoTrackerZack is an Android app that tracks and displays prices, charts, markets of top crypto currencies. With option to connect to local server, which code is here <a href="https://github.com/ZackPashkin/node.js-localserver-for-crypto-tracker-android-app-">Local Server</a>
 
-<img src="Images/all_currencies_screenshot.png" height='auto' width='270'/><img src="Images/chart_screenshot.png" height='auto' width='270'/><img src="Images/markets_screenshot.png" height='auto' width='270'/><img src="Images/news_screenshot.png" height='auto' width='270'/><img src="Images/sorting_screenshot.png" height='auto' width='270'/>
 
-## Features
 
-* Displays market cap, volume, percent change, price, and coin image for over 1500 crypto currencies
-  - List is sortable and searchable
-* Users can add favorites to a separate tab so that they can keep a close eye on the currencies they care about
-* Displays charts for price over time of each currency at different intervals
-  - Users can drag their fingers across the chart to see the price at a given time
-  - Chart displays data in USD and BTC
-* Statistics about the supply of each currency are displayed on a table under the chart
-* Easily navigate directly to the CoinMarketCap page for a currency from right inside the app
-* Displays markets for each currency sorted by volume
-* Aggregates crypto currency news from many different news sources and displays articles in a clean and aesthetic manner
 
 ## Libraries Used
 
@@ -42,7 +27,6 @@ These two permissions are required so that we can talk to the APIs on the intern
 
 ## Sources
 
-* <a href="https://min-api.cryptocompare.com/">CryptoCompare min-api</a>: This API is currently only used for Markets and News
-* <a href="https://coinmarketcap.com/">CoinMarketCap</a>: Huge thanks to CoinMarketCap! Without their APIs this app would not be possible. They are the backend for chart data, coin images, market caps, volume, prices, and percent changes
-* <a href="https://shields.io/">shields.io</a>: Provides the beautiful build badges at the top of this README
+* <a href="https://min-api.cryptocompare.com/">CryptoCompare min-api</a>: This API is currently only used for Markets.
+* <a href="https://coinmarketcap.com/">CoinMarketCap</a>
 * <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>
