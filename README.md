@@ -6,6 +6,8 @@ CryptoTrackerZack is an Android app that tracks and displays prices, charts, mar
 
 apk is available here on google drive 
 <a href="https://drive.google.com/file/d/1P8W3Wa_CGXOMWE9UIS870hu-5ybWqpyy/view">download apk</a>
+and in apk folder in <a href="https://github.com/ZackPashkin/CryptoTrackerZack--android-java-app/tree/master/apk">zip</a>
+
 
 <img src="Images/all_currencies_screenshot.png" height='auto' width='270'/>
 <img src="Images/chart_screenshot.png" height='auto' width='270'/>
