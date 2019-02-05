@@ -4,7 +4,7 @@
     tools:context="com.cryptotracker.zack.cryptotracker.currencylist.CurrencyListTabsActivity">
     <item
         android:id="@+id/news_button"
-        android:title="@string/News"
+        android:title="@string/About"
         android:icon="@drawable/ic_library_books_white_24dp"
         app:showAsAction="ifRoom" />
 </menu>

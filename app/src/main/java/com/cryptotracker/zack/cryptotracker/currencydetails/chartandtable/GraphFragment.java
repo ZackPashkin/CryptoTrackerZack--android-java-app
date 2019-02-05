@@ -67,7 +67,7 @@ public class GraphFragment extends Fragment implements OnChartValueSelectedListe
 
     public final static String BASE_CMC_SOURCE_URL = "https://coinmarketcap.com/currencies/";
     public final static DecimalFormat rawNumberFormat = new DecimalFormat("#,###.##");
-    public static final String SHAREDPREF_SETTINGS = "cryptobuddy_settings";
+    public static final String SHAREDPREF_SETTINGS = "cryptotrackerzack_settings";
     public static final String CHART_SPINNER_SETTING = "chart_spinner_setting";
     public static final String ARG_SYMBOL = "symbol";
     public static final String ARG_ID = "ID";
@@ -274,10 +274,19 @@ public class GraphFragment extends Fragment implements OnChartValueSelectedListe
                     } else {
                         percentChangeText.setText(String.format(getString(R.string.negative_variable_pct_change_without_dollars_format), currentTimeWindow, percentChange));
                     }
+
+
                 } else {
                     if (tsymbol.equals("USD")) {
                         percentChangeText.setText(String.format(getString(R.string.positive_variable_pct_change_with_dollars_format), currentTimeWindow, percentChange, Math.abs(difference)));
-                    } else {
+                    }
+
+                    if (tsymbol.equals("RUB")) {
+                        percentChangeText.setText(String.format(getString(R.string.positive_variable_pct_change_with_dollars_format), currentTimeWindow, percentChange, Math.abs(difference)));
+                    }
+
+
+                    else {
                         percentChangeText.setText(String.format(getString(R.string.positive_variable_pct_change_without_dollars_format), currentTimeWindow, percentChange));
                     }
                 }

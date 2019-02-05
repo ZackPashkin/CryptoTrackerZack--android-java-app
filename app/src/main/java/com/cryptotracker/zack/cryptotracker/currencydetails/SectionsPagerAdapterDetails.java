@@ -49,7 +49,7 @@ public class SectionsPagerAdapterDetails extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position) {
             case 0:
-                return "Chart";
+                return "Charts";
             case 1:
                 return "Markets";
             default:

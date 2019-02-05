@@ -21,7 +21,7 @@
     <string name="negative_pct_format">%1$.2f%%</string>
     <string name="positive_pct_format">&#43;%1$.2f%%</string>
 
-    <string name="News">News</string>
+    <string name="About">About</string>
     <string name="Home">Home</string>
     <string name="CoinImage">Coin Image</string>
     <string name="AddCurrency">Add Currency</string>

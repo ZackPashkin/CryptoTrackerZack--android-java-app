@@ -209,6 +209,7 @@ public class AllCurrencyListFragment extends Fragment implements SwipeRefreshLay
         return rootView;
     }
 
+    // sort button
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {

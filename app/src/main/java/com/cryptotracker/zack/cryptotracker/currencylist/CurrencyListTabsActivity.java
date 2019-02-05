@@ -70,7 +70,7 @@ public class CurrencyListTabsActivity extends AppCompatActivity implements ViewP
                 .withLibraries("easyrest", "materialabout", "androiddevicenames", "customtabs", "togglebuttongroup", "materialfavoritebutton");
 
         TextDrawable t = new TextDrawable(this);
-        t.setText("ART");
+        t.setText("");
         t.setTextAlign(Layout.Alignment.ALIGN_CENTER);
         t.setTextColor(Color.BLACK);
         t.setTextSize(10);
@@ -84,10 +84,8 @@ public class CurrencyListTabsActivity extends AppCompatActivity implements ViewP
                 .withAccountHeader(headerResult)
                 .addDrawerItems(
                         new PrimaryDrawerItem().withIdentifier(1).withName(R.string.Home).withIcon(FontAwesome.Icon.faw_home),
-                        new PrimaryDrawerItem().withIdentifier(2).withName(R.string.News).withIcon(FontAwesome.Icon.faw_newspaper),
-                        new PrimaryDrawerItem().withIdentifier(3).withName("About").withIcon(FontAwesome.Icon.faw_question_circle),
-                        new PrimaryDrawerItem().withIdentifier(4).withName("Open Source").withIcon(FontAwesome.Icon.faw_github_square),
-                        new PrimaryDrawerItem().withIdentifier(5).withName("Rate on Google Play").withIcon(FontAwesome.Icon.faw_thumbs_up)
+                        new PrimaryDrawerItem().withIdentifier(2).withName(R.string.About).withIcon(FontAwesome.Icon.faw_question_circle)
+
                 )
                 .withTranslucentStatusBar(false)
                 .build();
