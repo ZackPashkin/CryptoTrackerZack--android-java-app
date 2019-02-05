@@ -1,8 +1,17 @@
-# cryptoTrackerZack
+# CryptoTrackerZack
 
 
 
 CryptoTrackerZack is an Android app that tracks and displays prices, charts, markets of top crypto currencies. With option to connect to local server, which code is here <a href="https://github.com/ZackPashkin/node.js-localserver-for-crypto-tracker-android-app-">Local Server</a>
+
+apk is available here on google drive 
+<a href="https://drive.google.com/file/d/1P8W3Wa_CGXOMWE9UIS870hu-5ybWqpyy/view">download apk</a>
+
+<img src="Images/all_currencies_screenshot.png" height='auto' width='270'/>
+<img src="Images/chart_screenshot.png" height='auto' width='270'/>
+<img src="Images/search.png" height='auto' width='270'/>
+<img src="Images/driver.png" height='auto' width='270'/>
+<img src="Images/sorting_screenshot.png" height='auto' width='270'/>
 
 
 
