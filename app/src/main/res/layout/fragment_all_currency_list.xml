@@ -9,6 +9,23 @@
     android:orientation="vertical"
     tools:showIn="@layout/fragment_all_currency_list">
 
+    <Button
+        android:id="@+id/marketsSourceButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_ripple_effect"
+        android:contentDescription="http://192.168.1.15:3000"
+        android:enabled="false"
+        android:text="LOCAL SERVER"
+        android:textAppearance="@style/SubTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noMarketsTextView"
+        app:layout_constraintVertical_chainStyle="packed" />
+
     <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/currency_list_swipe_refresh"

@@ -1,3 +1,5 @@
+
+<!-- All strings conventions -->
 <resources>
     <string name="app_name">CryptoTrackerZack</string>
     <string name="action_settings">Settings</string>
