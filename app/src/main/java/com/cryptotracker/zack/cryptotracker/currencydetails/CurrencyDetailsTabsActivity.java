@@ -47,15 +47,6 @@ public class CurrencyDetailsTabsActivity extends AppCompatActivity {
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.news_button:
-                //startActivity(new Intent(this, LocalServerListActivity.class));
-                return true;
-        }
-        finish();
-        return true;
-    }
+    
 
 }

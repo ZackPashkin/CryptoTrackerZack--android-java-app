@@ -72,6 +72,7 @@ public class GraphFragment extends Fragment implements OnChartValueSelectedListe
     public static final String ARG_SYMBOL = "symbol";
     public static final String ARG_ID = "ID";
     public static final String COIN_OBJECT = "COIN_OBJECT";
+    //links for historical charts data
     private final static String CHART_URL_WEEK = "https://min-api.cryptocompare.com/data/histohour?fsym=%s&tsym=USD&limit=168&aggregate=1";
     private final static String CHART_URL_ALL_DATA = "https://min-api.cryptocompare.com/data/histoday?fsym=%s&tsym=USD&allData=true";
     private final static String CHART_URL_YEAR = "https://min-api.cryptocompare.com/data/histoday?fsym=%s&tsym=USD&limit=183&aggregate=2";

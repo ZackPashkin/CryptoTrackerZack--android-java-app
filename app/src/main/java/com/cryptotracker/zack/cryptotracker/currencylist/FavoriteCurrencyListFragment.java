@@ -200,7 +200,7 @@ public class FavoriteCurrencyListFragment extends Fragment implements SwipeRefre
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.sort_favs_button:
+            case R.id.sort_button:
                 int sortType = sharedPreferences.getInt(SORT_SETTING, 1);
                 new MaterialDialog.Builder(getActivity())
                         .title(R.string.sort_by)
