@@ -43,7 +43,7 @@ These two permissions are required so that we can talk to the APIs on the intern
 * <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>
 
 
-##Known common issues
+## Known common issues
 
 * Unstable Local Server connection
 * EUR, RUB pairs for charts are not yet implemented
